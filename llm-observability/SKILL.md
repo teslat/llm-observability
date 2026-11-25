@@ -1,6 +1,7 @@
 ---
 name: llm-observability
 description: Audit and instrument LLM features in a codebase using a decisions-first observability model (3 tiers, OpenTelemetry GenAI conventions, per-feature and per-tenant tagging, SLO templates). Use this whenever the user wants to add monitoring, tracing, logging, cost tracking, evals or alerts to code that calls an LLM (OpenAI, Anthropic, Gemini, Bedrock, LiteLLM, LangChain, Vercel AI SDK, openai-php, Prism), asks why their AI feature is slow, expensive or flaky in production, wants an "LLMOps" or "AI observability" review, or asks what to measure for an AI app, even if they don't say "observability".
+license: MIT. See LICENSE in the repository root.
 ---
 
 # LLM Observability
