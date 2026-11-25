@@ -79,7 +79,7 @@ python3 llm-observability/scripts/find_llm_calls.py path/to/repo --format json
 
 ## Companion: The AI Observability Playbook
 
-This skill puts *The AI Observability Playbook* into practice: 10 pages covering the tiers, rollout phases, tagging schema, OpenTelemetry snippets, an SLO template and a checklist. Get it free from [my LinkedIn](https://www.linkedin.com/in/muhammadbermawy/).
+This skill puts *The AI Observability Playbook* into practice: 10 pages covering the tiers, rollout phases, tagging schema, OpenTelemetry snippets, an SLO template and a checklist. Get it free at [elbermawy.net/observability](https://elbermawy.net/observability/).
 
 ---
 
