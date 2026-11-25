@@ -1,0 +1,19 @@
+{
+  "_note": "Attach these attributes to every LLM span. gen_ai.* names follow the OpenTelemetry GenAI semantic conventions (status: Development; older libraries use gen_ai.system instead of gen_ai.provider.name). app.* names are project-defined. trace_id comes from the OpenTelemetry context; model_version maps to gen_ai.response.model. app.tenant_id is an ID, never a name or email.",
+  "attributes": {
+    "gen_ai.operation.name": "chat",
+    "gen_ai.provider.name": "openai",
+    "gen_ai.request.model": "model-name-you-asked-for",
+    "gen_ai.response.model": "model-name-that-answered",
+    "gen_ai.usage.input_tokens": 0,
+    "gen_ai.usage.output_tokens": 0,
+    "app.feature": "invoice_summary",
+    "app.tenant_id": "t_0042",
+    "app.prompt_version": "invoice_summary@v7",
+    "app.outcome": "success | error | fallback | blocked",
+    "app.fallback_used": false,
+    "app.guardrail": "none | pii | jailbreak | policy",
+    "app.business_event_id": "order_789",
+    "app.cost_usd": 0.0
+  }
+}
